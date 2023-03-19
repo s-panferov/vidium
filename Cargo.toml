@@ -1,0 +1,9 @@
+[workspace]
+members = [
+  "packages/vidium",
+]
+
+resolver = "2"
+
+[profile.release]
+lto = true
