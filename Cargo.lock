@@ -152,7 +152,8 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 [[package]]
 name = "chromiumoxide"
 version = "0.5.0"
-source = "git+https://github.com/mattsse/chromiumoxide?branch=main#1eb7732171bec33223ca5dfd340e8afd8eb89e02"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1fbef58698a487c253c55c3d17bb1efbe268d2961a2c8278e3f86fff721355fc"
 dependencies = [
  "async-tungstenite",
  "base64 0.21.0",
@@ -177,7 +178,8 @@ dependencies = [
 [[package]]
 name = "chromiumoxide_cdp"
 version = "0.5.0"
-source = "git+https://github.com/mattsse/chromiumoxide?branch=main#1eb7732171bec33223ca5dfd340e8afd8eb89e02"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "902b90e019dff479bf5a36ed3961e955afa48c35fb2d4245d0b193e7746d50b9"
 dependencies = [
  "chromiumoxide_pdl",
  "chromiumoxide_types",
@@ -188,7 +190,8 @@ dependencies = [
 [[package]]
 name = "chromiumoxide_pdl"
 version = "0.5.0"
-source = "git+https://github.com/mattsse/chromiumoxide?branch=main#1eb7732171bec33223ca5dfd340e8afd8eb89e02"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cc9319fb29ecce08ac90dd5a798c391f6a8ae1d7c90aff71f3fa27cb3cdfc3ec"
 dependencies = [
  "chromiumoxide_types",
  "either",
@@ -204,7 +207,8 @@ dependencies = [
 [[package]]
 name = "chromiumoxide_types"
 version = "0.5.0"
-source = "git+https://github.com/mattsse/chromiumoxide?branch=main#1eb7732171bec33223ca5dfd340e8afd8eb89e02"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0c9187058637b8e555690935a6d25a1f7af1d71b377fc45b4257712efb34551f"
 dependencies = [
  "serde",
  "serde_json",
