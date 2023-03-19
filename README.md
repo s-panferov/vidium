@@ -15,3 +15,13 @@ cargo install vidium
 ```
 vidium encode --url https://google.com --output google.mp4 --width 800 --height 600 --headless=false
 ```
+
+## Limitations
+
+* No sound support (Chrome screencast limitation)
+* Only `.mp4` output is supported (h264, yuv420p)
+
+## Future work
+
+* [] Library / binary separation
+* [] Allow to control the page with a JS script
