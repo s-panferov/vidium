@@ -1756,7 +1756,6 @@ dependencies = [
  "base64 0.21.0",
  "chromiumoxide",
  "clap",
- "ffmpeg-next",
  "futures",
  "image",
  "ndarray",
